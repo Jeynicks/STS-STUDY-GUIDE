@@ -1,110 +1,112 @@
 
 const identificationQuestions = [
     {
-        question: "What does the Latin word 'scientia' mean?",
-        answer: "knowledge"
+        question: "The type of writing used to persuade people to take action.",
+        answer: "Copywriting"
     },
     {
-        question: "What is the systematic process that helps scientists learn about the world?",
-        answer: "scientific method"
+        question: "The type of writing focused on informing, entertaining, or educating the audience.",
+        answer: "Content writing"
     },
     {
-        question: "What Greek word means art, craft, or skill in the etymology of 'technology'?",
-        answer: "techne"
+        question: "The persuasive technique that appeals to ethics or credibility.",
+        answer: "Ethos"
     },
     {
-        question: "What Greek word refers to speaking of or studying in the etymology of 'technology'?",
-        answer: "logos"
+        question: "The persuasive technique that appeals to logic and reason.",
+        answer: "Logos"
     },
     {
-        question: "What term refers to things that have been proven true through careful study and experiments?",
-        answer: "facts"
+        question: "The persuasive technique that appeals to emotion.",
+        answer: "Pathos"
     },
     {
-        question: "What Latin word is the origin of the term 'society'?",
-        answer: "societas"
+        question: "A written prompt that tells the audience what to do next.",
+        answer: "CTA"
     },
     {
-        question: "What are organizations that help a society function called?",
-        answer: "institutions"
+        question: "The advertising acronym that asks 'What's in it for me?'",
+        answer: "WIIFM"
     },
     {
-        question: "What is the practical use of scientific knowledge called?",
-        answer: "technology"
+        question: "The strategic focus that highlights a product's unique value.",
+        answer: "USP"
     },
     {
-        question: "What is the study of how society, politics, and culture influence scientific research and new technology?",
-        answer: "Science, Technology, and Society"
+        question: "The use of images, typography, and layout to support a message.",
+        answer: "Visual rhetoric"
     },
     {
-        question: "What is a collection of knowledge that people have gathered using the scientific method?",
-        answer: "science"
+        question: "The practice of tailoring ads based on traits like age, interests, or lifestyle.",
+        answer: "Psychographics"
+    },
+    {
+        question: "A brief radio commercial spot designed to grab attention quickly.",
+        answer: "Radio spot"
+    },
+    {
+        question: "An ad format that uses drama or short stories to engage the viewer.",
+        answer: "Minidrama"
+    },
+    {
+        question: "The principle that emphasizes keeping a single clear message per ad.",
+        answer: "TMI"
+    },
+    {
+        question: "The final step in copywriting to check accuracy and clarity.",
+        answer: "Proofread"
+    },
+    {
+        question: "The guideline that advises focusing on the audience rather than the company.",
+        answer: "You"
     }
 ];
 
+// TRUE OR FALSE
 const trueFalseQuestions = [
     {
-        question: "Science started because people wanted to make money from inventions.",
+        question: "Content writing and copywriting have the same primary purpose.",
         answer: false
     },
     {
-        question: "Technology is the practical application of scientific knowledge.",
+        question: "Copywriting always involves persuading an audience to take action.",
         answer: true
     },
     {
-        question: "The scientific method involves observing things carefully and experimenting to test ideas.",
+        question: "The use of humor, shock, and suspense are techniques to capture attention in copywriting.",
         answer: true
     },
     {
-        question: "Society has no influence on what science and technology develop.",
+        question: "Content writing requires a focus on persuasive elements like urgency and scarcity.",
         answer: false
     },
     {
-        question: "A society is simply any random group of people living in the same area.",
+        question: "A call to action (CTA) is not essential in every advertisement.",
         answer: false
     },
     {
-        question: "Common interests are one of the characteristics that make a society unique.",
+        question: "Logos in advertising appeals to logic and reason through facts and figures.",
         answer: true
     },
     {
-        question: "Science explains how things work, while technology uses that knowledge in real life.",
-        answer: true
-    },
-    {
-        question: "New inventions happen regardless of society's needs or demands.",
+        question: "A good script for TV or radio ads should avoid the use of sound effects.",
         answer: false
     },
     {
-        question: "Schools, government, and businesses are examples of societal institutions.",
+        question: "Pathos in advertising often appeals to emotions such as love or patriotism.",
         answer: true
     },
     {
-        question: "The word 'technology' comes from Latin origin.",
+        question: "Visual rhetoric is not used in television ads or print marketing collaterals.",
         answer: false
     },
     {
-        question: "Science and technology only impact society, but society never influences them.",
-        answer: false
-    },
-    {
-        question: "Cybersecurity is an example of how science and technology benefit society.",
-        answer: true
-    },
-    {
-        question: "Online learning platforms are an example of how technology has made education less accessible.",
-        answer: false
-    },
-    {
-        question: "Electric cars and high-speed trains are examples of technology improving transportation.",
-        answer: true
-    },
-    {
-        question: "Non-facts are things that have been proven through careful study and experiments.",
+        question: "Copywriters should always focus on 'we' rather than 'you' to connect with their audience.",
         answer: false
     }
 ];
 
+// MULTIPLE CHOICES
 const questions = [
     {
         question: "What is Science, Technology, and Society (STS) primarily concerned with?",
